@@ -1,2 +1,16 @@
-# docker-for-php
-Build for php with php 8.2 + nginx latest (1.23) + mysql 8.0 + phpmyadmin 5
+# Сборка для пары проектов (yii2 + simple html)
+
+## Сборка на основе:
+- php 8.2
+- nginx latest (1.23)
+-  mysql 8.0
+- phpmyadmin 5
+- redis 7
+
+Папка для проектов: projects/
+- yii2 на порте 8080
+- простой проект на 80 по-умолчанию
+
+Управление переменными среды через .env
+
+
